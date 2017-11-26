@@ -1,0 +1,42 @@
+{
+  "name": "coinbase-value",
+  "version": "0.0.1",
+  "description": "Coinbase price monitoring tool",
+  "author": {
+    "name": "Srdjan Prpa <srdjanprpa@gmail.com>",
+    "url": "http://srdjanprpa.com"
+  },
+  "homepage": "https://github.com/srdjanprpa/coinbase-value#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srdjanprpa/coinbase-value.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srdjanprpa/coinbase-value/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/index.js"
+  },
+  "bin": {
+    "coinbase": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "bitcoin",
+    "litecoin",
+    "ethereum",
+    "crypto",
+    "valuta"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cli-table2": "^0.2.0",
+    "commander": "^2.11.0",
+    "ora": "^1.3.0"
+  }
+}
