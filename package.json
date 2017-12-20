@@ -1,6 +1,6 @@
 {
   "name": "coinbase-value",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Coinbase price monitoring tool",
   "author": {
     "name": "Srdjan Prpa <srdjanprpa@gmail.com>",
