@@ -41,7 +41,10 @@ const table = new Table({
 
 const spinner = ora('Loading data').start()
 
-axios.all([getCoinValue('BTC', convert), getCoinValue('ETH', convert), getCoinValue('LTC', convert)])
+axios.all([getCoinValue('BTC', convert),
+           getCoinValue('BCH', convert), 
+           getCoinValue('ETH', convert),
+           getCoinValue('LTC', convert)])
 .then(response => {
   spinner.stop()
 
